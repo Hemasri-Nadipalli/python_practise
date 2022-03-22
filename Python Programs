@@ -1,0 +1,15 @@
+a=int(input("enter marks of first subject"))
+b=int(input("enter marks of second suject"))
+c=int(input("enter marks of third subject"))
+d=int(input("enter marks of fourth subject"))
+e=int(input("enter marks of fifth subject"))
+if (a>b) and (a>c) and (a>d) and (a>e):
+    print("a is highest mark")
+elif(b>a) and (b>c) and (b>d) and (b>e):
+    print("b is highest mark")
+elif(c>a) and (c>b) and (c>d) and (c>e):
+    print("c is highest mark")
+elif(d>a) and (d>b) and (d>c) and (d>e):
+    print("d is highest mark")
+else:78
+    print("e is highest rank")
